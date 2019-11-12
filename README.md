@@ -4,6 +4,9 @@
 A [Remote.Linq](https://github.com/6bee/Remote.Linq) extension for [LinqToDB](https://github.com/linq2db) 
 This enables your queries to be executed over a remote service.
 
+### WIP
+Not all extensions are implemented yet. All write access operations like update or delete will come later.
+
 ### Sample
 
 #### Client
