@@ -8,6 +8,10 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Database
+*.fdb
+*.gdb
+
 # Mono auto generated files
 mono_crash.*
 

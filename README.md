@@ -47,10 +47,10 @@ public class RemoteRepository: IDisposable
     };
   }
 
-  public IRemoteQueryable<T> GetTable<T>() where T: class
+  public IQueryable<T> GetTable<T>() where T: class
   {
-    var result = RemoteQueryable.Factory.CreateQueryable<T>(_dataProvider) as IRemoteQueryable<T>;
-    return result;
+	 var result = RemoteQueryable.Factory.CreateQueryable<T>(_dataProvider) as IQueryable<T>;
+	 return result;
   }
 
   public void Dispose()
